@@ -4,5 +4,3 @@ data:
 kind: ConfigMap
 metadata:
   name: example-configmap-1
-  annotations:
-    configmanagement.gke.io/managed: disabled
