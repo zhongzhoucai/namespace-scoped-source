@@ -15,8 +15,6 @@ kind: Pod
 metadata:
   name: test-pod
   namespace: team-1
-  annotations:
-    configmanagement.gke.io/managed: disabled
 spec:
   containers:
     - name: nginx-container
