@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: nginx-pv-claim
   annotations:
-    my-own-ann: "true"
+    configmanagement.gke.io/managed: disabled
 spec:
   accessModes:
     - ReadWriteOnce
