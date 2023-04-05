@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: nginx-pv-claim
   annotations:
-    my-own-ann: true
+    my-own-ann: "true"
 spec:
   accessModes:
     - ReadWriteOnce
