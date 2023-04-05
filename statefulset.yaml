@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: web
-  annotations:
-    configmanagement.gke.io/managed: disabled
 spec:
   replicas: 2
   selector:
