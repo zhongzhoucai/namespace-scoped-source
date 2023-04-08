@@ -6,4 +6,3 @@ metadata:
   name: example-configmap-1
   annotations:
     configmanagement.gke.io/cluster-selector: selector-env-test
-    config.kubernetes.io/local-config: "true"
