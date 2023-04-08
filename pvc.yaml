@@ -2,6 +2,8 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: nginx-pv-claim
+  annotations:
+    config.kubernetes.io/local-config: "true"
 spec:
   accessModes:
     - ReadWriteOnce
