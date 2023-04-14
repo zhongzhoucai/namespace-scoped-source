@@ -5,4 +5,5 @@ kind: ConfigMap
 metadata:
   name: example-configmap-1
   annotations:
+    client.lifecycle.config.k8s.io/mutation: ignore
     configmanagement.gke.io/cluster-selector: selector-env-test
